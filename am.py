@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from streamlit_option_menu import option_menu
 import plotly.express as px       
 import pandas as pd
-df=pd.read_csv("aj.csv.csv")
+df=pd.read_csv("aj.csv")
 df.info()
 df1=pd.read_csv("d2.csv")
 df.info()
