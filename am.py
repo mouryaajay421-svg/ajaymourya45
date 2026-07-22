@@ -460,8 +460,8 @@ if opt=="Home":
     
     st.title("Indian Tourism Trend Analysis")
     st.markdown("<h4 style='text-align:center;color:gray;'>Discover • Analyze • Explore India's Tourism</h4>",unsafe_allow_html=True)
-    image_list=['1img.jpg']
-    st.image(image=image_list,width=150)
+    image_list=['img1.jpg']
+    st.image(image=image_list,width=200)
    
     col1,col2,col3,col4=st.columns(4)
     col1.metric("📍 Tourist Places",len(df))
@@ -516,7 +516,7 @@ COVID-19 impact, and key tourism insights using visual analytics.
     with c3:
       st.button("💡Insights",use_container_width=True)
       
-    st.image('imge.jpeg',width=900)
+    st.image('india map.jpg',width=900)
      
     st.subheader("🗂 Dataset Summary")
 
